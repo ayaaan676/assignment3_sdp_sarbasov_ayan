@@ -150,16 +150,6 @@ Adding `AsciiRenderer` does not require changing the existing shape classes.
 
 The program contains seven test cases.
 
-| Test | Description                                        | Expected Result |
-| ---- | -------------------------------------------------- | --------------- |
-| T1   | Circle + VectorRenderer                            | PASS            |
-| T2   | Circle + RasterRenderer                            | PASS            |
-| T3   | Square + VectorRenderer                            | PASS            |
-| T4   | Square + RasterRenderer                            | PASS            |
-| T5   | Change renderer without replacing the shape object | PASS            |
-| T6   | Circle + AsciiRenderer                             | PASS            |
-| T7   | Square + AsciiRenderer                             | PASS            |
-
 The final result is:
 
 ```text
@@ -218,19 +208,7 @@ This shows that the implementation can be changed at runtime without creating a 
 
 The program will execute all seven tests.
 
-### Expected Output
 
-```text
-T1 PASS | Circle + VectorRenderer | result=VECTOR circle radius=2
-T2 PASS | Circle + RasterRenderer | result=RASTER circle radius=2
-T3 PASS | Square + VectorRenderer | result=VECTOR square side=3
-T4 PASS | Square + RasterRenderer | result=RASTER square side=3
-T5 PASS | sameObject=true | stateUnchanged=true
-    before=VECTOR circle radius=2 | after=RASTER circle radius=2
-T6 PASS | Circle + AsciiRenderer | result=ASCII circle radius=2
-T7 PASS | Square + AsciiRenderer | result=ASCII square side=3
-SUMMARY: 7/7 PASS
-```
 
 ---
 
@@ -319,14 +297,6 @@ The Bridge Pattern provides several advantages:
 
 ---
 
-## 12. Technologies Used
-
-* Java
-* Object-Oriented Programming
-* Bridge Design Pattern
-* IntelliJ IDEA
-* Git
-* GitHub
 
 ---
 
